@@ -1,4 +1,4 @@
-// Wait until everything is loaded
+
 document.addEventListener('DOMContentLoaded', function() {
     
     // Button click handlers
@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', function() {
         alert('More info: Stranger Things is a supernatural series.');
     });
 
-    // Click on any movie card
     document.querySelectorAll('.movie-card').forEach(function(card) {
         card.addEventListener('click', function() {
             alert('You clicked on: ' + card.textContent);
@@ -18,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 });
-// Login button click
+
 document.querySelector('.login-btn').addEventListener('click', function() {
     alert('Redirecting to login page...');
 });

@@ -1,4 +1,4 @@
-/* Basic Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,14 +11,13 @@ body {
     color: white;
 }
 
-/* Header */
 header {
     background: black;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap; /* allow wrap on small screens */
+    flex-wrap: wrap; 
 }
 
 
@@ -37,12 +36,11 @@ nav a:hover {
     color: gray;
 }
 
-/* Hero Section */
 .hero {
     height: 500px;
     background: 
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("https://wallpapercave.com/wp/wp5071090.jpg"); /* your image URL */
+        url("https://wallpapercave.com/wp/wp5071090.jpg"); 
     background-size: cover;
     background-position: center;
     display: flex;
@@ -88,11 +86,11 @@ button {
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
-    justify-content: left; /* Centers cards in available space */
+    justify-content: left; 
 }
 
 .movie-card {
-    width: 220px; /* Fixed width */
+    width: 220px;
     background: #222;
     padding: 10px;
     border-radius: 8px;
@@ -127,7 +125,6 @@ button {
     background-color: #333;
 }
 
-/* Footer */
 footer {
     background: black;
     text-align: center;

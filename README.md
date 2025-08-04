@@ -20,6 +20,13 @@ The application displays:
 - Interactive movie cards with hover effects
 - Footer with copyright information
 
+## 📸 Screenshot
+
+![Netflix Clone Homepage](screenshot1.png)
+
+![Netflix Clone Homepage](screenshot2.png)
+
+
 ## 📁 Project Structure
 
 ```
